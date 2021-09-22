@@ -14,8 +14,8 @@ void randomize() {
     wordNumbers = int(random(0, 7));
     colourNumbers = wordNumbers;
   } else if (doesItMatch == 1) {
-      wordNumbers = int(random(0, 7));
-      colourNumbers = int(random(0, 7));
+    wordNumbers = int(random(0, 7));
+    colourNumbers = int(random(0, 7));
     while (wordNumbers == colourNumbers) wordNumbers = int(random(0, 7));
   }
 
